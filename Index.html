@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kenya Online Voting Portal</title>
+
+<style>
+
+body{
+font-family: Arial, Helvetica, sans-serif;
+margin:0;
+background:#f4f4f4;
+}
+
+header{
+background:#222;
+color:white;
+padding:15px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+border-bottom:5px solid red;
+}
+
+header h1{
+margin:0;
+color:#4CAF50;
+}
+
+nav{
+background:#333;
+}
+
+nav ul{
+list-style:none;
+margin:0;
+padding:0;
+display:flex;
+}
+
+nav ul li{
+flex:1;
+}
+
+nav ul li a{
+display:block;
+text-align:center;
+padding:14px;
+color:white;
+text-decoration:none;
+}
+
+nav ul li a:hover{
+background:#4CAF50;
+}
+
+.hero{
+background:url("voting.jpg") no-repeat center/cover;
+height:350px;
+color:white;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+padding:20px;
+}
+
+.hero h2{
+font-size:40px;
+}
+
+.container{
+width:90%;
+margin:auto;
+margin-top:30px;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+}
+
+.card{
+background:white;
+padding:20px;
+text-align:center;
+border-radius:8px;
+box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+.card h3{
+color:#333;
+}
+
+.about{
+background:white;
+padding:20px;
+margin-top:30px;
+border-radius:8px;
+}
+
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
+
+footer a{
+color:#4CAF50;
+margin:0 10px;
+text-decoration:none;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Kenya Online Voting Portal</h1>
+<button>Log In</button>
+</header>
+
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="howtovote.html">How to Vote</a></li>
+<li><a href="register.html">Voter Registration</a></li>
+<li><a href="election.html">Election Info</a></li>
+<li><a href="results.html">Results</a></li>
+<li><a href="contact.html">Contact Us</a></li>
+</ul>
+</nav>
+
+<section class="hero">
+<div>
+<h2>Welcome to the Kenya Online Voting Portal</h2>
+</div>
+</section>
+
+<div class="container">
+
+<div class="cards">
+
+<div class="card">
+<h3>How to Vote</h3>
+<p>Learn the step-by-step process of casting your vote online.</p>
+<a href="howtovote.html">Learn More</a>
+</div>
+
+<div class="card">
+<h3>Voter Registration</h3>
+<p>Register as a voter or update your details.</p>
+<a href="register.html">Register</a>
+</div>
+
+<div class="card">
+<h3>Election Information</h3>
+<p>View candidates and upcoming elections.</p>
+<a href="election.html">View Info</a>
+</div>
+
+<div class="card">
+<h3>Election Results</h3>
+<p>Check official election results.</p>
+<a href="results.html">View Results</a>
+</div>
+
+</div>
+
+<div class="about">
+
+<h2>About the Portal</h2>
+
+<p>
+The <b>Kenya Online Voting Portal</b> is a digital platform designed to allow Kenyan citizens to participate in elections through the internet.
+</p>
+
+<p>
+This website was created by <b>Mustafa Abdullahi</b> to demonstrate how technology can improve transparency, accessibility, and efficiency in the voting process.He is a 1st year student at USIU-Africa.
+</p>
+
+<p>
+Our mission is to make voting secure, simple, and accessible for all Kenyans regardless of their location.
+</p>
+
+</div>
+
+</div>
+
+<footer>
+
+<p>© 2027 Kenya Online Voting Portal</p>
+
+<a href="#">Privacy Policy</a>
+<a href="#">FAQs</a>
+<a href="#">Help & Support</a>
+
+</footer>
+
+</body>
+</html>
